@@ -3,10 +3,10 @@ import { Input } from '@/components/ui/input';
 
 const ProductPage = () => {
     return (
-        <div className="bg-blue-200 p-10">
-            <h1 className="text-red-900">products page</h1>
-            <Button className='m-2'>fsw 7.0</Button>
-            <Input className='m-4' type="text" placeholder='bora codaarrrr' />
+        <div className="p-5 rounded-xl border border-red-500 ">
+            <h1 className="text-red-500">products page</h1>
+            <Button>fsw 7.0</Button>
+            <Input placeholder='bora codaarrrr' />
         </div>
     );
 }
